@@ -1,0 +1,43 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+body{
+    min-height: 100vh;
+    background: url(/image/ford-mustang-3840x2160-21882.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+}
+header{
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1.3rem 10;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+  
+
+}
+
+#logo{
+color: aliceblue;
+font-weight: bold;
+font-size: 30px;
+box-sizing: 10px;
+outline: none;
+text-decoration: none;
+}
+.navbar a{
+    text-decoration: none;
+    color: aliceblue;
+    justify-content: space-between;
+    margin-left: 20px;
+    font-size: 1.3rem;
+    backdrop-filter: blur(50px);
+}

@@ -1,0 +1,69 @@
+.section-1{
+    ..gradient-background {
+        background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+        background-size: 180% 180%;
+        animation: gradient-animation 18s ease infinite;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+      }
+      
+      @keyframes gradient-animation {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+}
+
+  
+  #dog{
+    height: 593px;
+    width: 335px;
+    position: relative;
+    top: 48px;
+  }
+  
+  .icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .Bold{
+    font-size: larger;
+    font-weight: bold;
+  }
+  
+  #testimonial{
+    background-color: whitesmoke;
+    padding-bottom: 100px;
+    padding-top: 16px;
+  }
+  
+  
+  .profile-img {
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .pic{
+    height: 60px;
+    padding: 10px;
+    position: relative;
+    left: 25%;
+  }
+  
+  
+  
+  
