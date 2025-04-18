@@ -18,18 +18,13 @@ height: auto;
 
 
 }
-.two {
+.two, .three {
     background: ;
     border: 2px solid black;
     border-radius: 2px;
     border-style: solid;  
 }
-.three {
-    background: ;
-    border: 2px solid black;
-    border-radius: 2px;
-    border-style: solid;  
-}
+
 
 .four {
     background: ;
@@ -45,3 +40,4 @@ height: auto;
     border-style: solid;
     height: 40px;
 }
+/*  */
