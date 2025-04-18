@@ -1,0 +1,199 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: borderbox;
+    font-family: 'poppins';
+    list-style: none;
+    text-decoration: none;
+    background-size: cover;
+   
+    
+ 
+}
+
+   
+   body{
+    background:  linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),  url(/image/Earth-From-Space-HD-Backgrounds.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 200vhh;
+   }
+
+header{
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 33px 6%;
+    background: transparent;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: 700;
+  
+     color: rgb(247, 248, 249);
+}
+.navlist{
+    display: flex;
+}
+.navlist a{
+    color: aliceblue;
+    margin-left: 40px;
+    font-size: 15px;
+    font-weight:600 ;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+    
+}
+.navlist a:hover{
+    border-bottom: 2px solid white;
+}
+#menu-icon{
+    color: white;
+    font-size: 30px;
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
+}
+main{
+   margin-top: 80px;
+   display: flex;
+   margin-left: 50px;
+   color: white;
+ 
+}
+main ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 100px;
+    color: white;
+}
+main ul li{
+    justify-content: space-between;
+    border-bottom: transparent;
+    color: rgb(2, 2, 2);
+    transition: .5s ease;
+   
+}
+main ul li:hover{
+    border-bottom: 2px solid white;
+    
+}
+e
+h2{
+    margin-top: 200px;
+    margin-left: 550px;
+    color: aliceblue;
+}
+#mec{
+    margin-top: 100px;
+}
+#meccy{
+    margin-left: 100px;
+    margin-top: 30px;
+    color: white;
+    line-height: 30px;
+}
+#mecimg{
+    width: 600px;
+    height: 600px;
+    margin-left: 300px;
+    margin-top: 100px;
+    border-radius: 30px;
+}
+ ul li{
+    color: white;
+    justify-content: space-between;
+    list-style: ;
+    text-decoration: dotted;
+}
+#fact{
+    margin-bottom: 90px;
+    margin-top: 60px;
+}
+#ven{
+    color: rgb(229, 176, 3);
+    margin-left: 0px;
+    margin-top: 50px;
+}
+#venu img{
+    width: 600px;
+    height: 600px;
+    margin-left: 300px;
+    margin-top: 100px;
+    border-radius: 30px;
+}
+#ven{
+    line-height: 30px;
+    margin-left: 300px;
+}
+#fin{
+    font-weight: bold;
+    margin-left: 200px;
+    color: yellow;
+}
+#fini{
+    font-weight: bold;
+    margin-left: 200px;
+    color: yellow;
+}
+#finii{
+    font-weight: bold;
+    margin-left: 200px;
+    color: yellow;
+}
+#finiii{
+    font-weight: bold;
+    margin-left: 200px;
+    color: yellow;
+}
+#finiiii{
+    font-weight: bold;
+    margin-left: 200px;
+    color: yellow;
+}
+.venus li{
+    margin-left: 200px;
+    line-height: 30px;
+}
+.earth{
+margin-left: 40px;    
+color: white;
+margin-top: 20px;
+}
+.earthly{
+    color: rgb(215, 222, 9);
+    font-weight: bold;
+}
+.eart{
+    color: aliceblue;
+}
+.mars{
+    color: white;
+}
+.red{
+    color: white;
+    line-height: 30px;
+}
+.footer{
+    background: white;
+    background-size: 180% 180%;
+   
+    display: flex;
+    list-style: none;
+    
+  
+  }
+  .footer ul{
+    margin-left: 200px;
+    display: inline-block;
+    list-style: none;
+    padding-left: 200PX;
+  }
+  

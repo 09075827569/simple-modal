@@ -1,0 +1,280 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: borderbox;
+    font-family: 'poppins';
+    list-style: none;
+    text-decoration: none;
+    background-size: cover;
+    
+    
+ 
+}
+body{
+    background-position: center;
+    width: 95%;
+    height:auto;
+    background:  url(/image/Earth-From-Space-HD-Backgrounds.jpg);
+}
+header{
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 100;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 33px 6%;
+    background: transparent;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: 700;
+  
+     color: rgb(247, 248, 249);
+}
+.navlist{
+    display: flex;
+}
+.navlist a{
+    color: aliceblue;
+    margin-left: 40px;
+    font-size: 15px;
+    font-weight:600 ;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+    
+}
+.navlist a:hover{
+    border-bottom: 2px solid white;
+}
+#menu-icon{
+    color: white;
+    font-size: 30px;
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
+    background: ;
+}
+.hero{
+    height: 100%;
+    width: 100%;
+    min-height: 100ch;
+    background: linear-gradient(245.59deg, #4d9559 0%, #38703d 28.53%, #133917 75.52%) url(/image/Earth-From-Space-HD-Backgrounds.jpg);
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+    background-position: center;
+    background-size: cover;
+    height: 200vhh;
+    
+}
+section{
+    padding:  0 7%;
+}
+.hero-text h5{
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 40px ;
+
+}
+.hero-text h1{
+     font-family: 'permanent marker', cursive;
+     font-size: 60px;
+     line-height: 1;
+     color: white;
+     margin: 0 0  45px;
+
+}
+.hero-text h4{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 10px;
+}
+.hero-text p{
+    color: white;
+    font-size: 13px;
+    line-height: 1.9;
+    margin-bottom:40px;
+}
+.hero-img img{
+    width: ;
+    height: auto;
+}
+.hero-text a{
+  display: inline-block;
+  color: white;
+  background: #4d9559; 
+  border: 1px solid transperent ; 
+  padding: 12px 30px;
+  line-height: 1.4;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 30px;
+  text-transform: uppercase;
+  transition: all .55s ease;
+}
+ .hero-text a:hover{
+    background: transparent;
+    border: 1px solid white;
+    transform: translateX(8px);
+ }
+ .hero-text a.ctaa{
+    background: transparent;
+    border: 1px solid white;
+    margin-left: 20px;
+
+
+ }
+ .hero-text a .ctaa i{
+    vertical-align: middle;
+    margin-right: 5px;
+ }
+ .icons{
+    position: absolute;
+    
+    top: 50%;
+    transform: translateX(10%);
+ }
+ .icons i{
+    display: block;
+    margin: 18px 0;
+    font-size:24px ;
+    color: white;
+    transition: all .50s ease;
+ }
+  .icon i:hover{
+    color: #4d9559;
+    transform: translateY(-5px);
+  }
+  .scroll-down{
+    position: absolute;
+    bottom: 3%;
+    right: 9%;
+  }
+  .scroll-down i{
+    display: block;
+    padding: 12px;
+    font-size: 25px;
+    color: white;
+    background: #4d9559;
+    border-radius: 70px;
+    transition: all .50s ease;
+  }
+  .scroll-down i:hover{
+    transform: translateY(-5px);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: borderbox;
+    font-family: 'poppins';
+    list-style: none;
+    text-decoration: none;
+   
+}
+.form{ 
+ width: 250px;
+ height: 380px;
+ background: linear-gradient(245.59deg, #4d9559 0%, #38703d 28.53%, #133917 75.52%);
+ border-radius: 10px;
+ margin-left: 500px;
+ margin-top: 150px;
+ top: -20px;
+ left: 870px;
+ padding: 25px;
+
+ 
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid  #4d9559 ;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: white;
+    font-family: arial;
+}
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: #4d9559;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: 0.4s ease;
+
+}
+.btnn:hover{
+    background: white;
+    color: #4d9559;
+    
+}
+.btnn a{
+    text-decoration: none;
+    color: rgb(7, 7, 7);
+    font-weight: bold;
+
+}
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color: #77706a;
+}
+footer{
+   
+    justify-content: space-between;
+   
+}
+footer li{
+    display: flex;
+    color: white;
+}
+.nav flex-column{
+    color: aliceblue;
+}
+.footer{
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    display: flex;
+    list-style: none;
+    
+  
+  }
+  .footer ul{
+    margin-left: 200px;
+    display: inline-block;
+    list-style: none;
+    padding-left: 200PX;
+  }
+  
+

@@ -1,0 +1,43 @@
+body{
+
+
+}
+.line{
+    font-size: 15px;
+    font-family: arial;
+    background: wheat;
+    width: 400px;
+height: auto;
+
+}
+.one {
+    background: ;
+   border: 2px solid black;
+   border-radius: 2px;
+   border-style: dotted;
+
+
+}
+.two, .three {
+    background: ;
+    border: 2px solid black;
+    border-radius: 2px;
+    border-style: solid;  
+}
+
+
+.four {
+    background: ;
+    border: 2px solid black;
+    border-radius: 2px;
+    border-style: solid;  
+}
+
+.five {
+    background: ;
+    border: 2px solid black;
+    border-radius: 2px;
+    border-style: solid;
+    height: 40px;
+}
+/*  */
