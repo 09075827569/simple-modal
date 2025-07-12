@@ -1,0 +1,24 @@
+
+.box p {
+   background-color: rgb(124, 118, 4, 0.2);
+   background-size: 200px;
+   height: 200px;
+   width: 200px;
+}
+.Azul p{
+    background-color: rgba(124, 118, 4, 0.4);
+    background-size: 200px;
+   
+    
+}
+.anarajado p{
+    background-color: rgb(124, 119, 4,0.6);
+    background-size: 200px;
+   
+
+}
+.ana p{
+    background-color: rgba(124, 118, 4, 0.121);
+    background-size: 200px;
+   
+}

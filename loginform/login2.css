@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-position: center;
+    background-size: cover;
+    font-family: 'poppins';
+}
+body{
+    background:  url(/image/sumup-zGEQGNp0rl8-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    background-attachment: fixed;
+}
+a{
+    text-decoration: none;
+    border-bottom: transparent;
+    color: aliceblue;
+  
+   display: inline-flex;
+gap: 40px;
+}
+a:hover{
+    border-bottom: 1px solid white;
+}
+.wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh ;
+    background-color: rgba(0, 0, 0, 0.2);
+   
+}
+.tag{
+    position: relative;
+    width: 450px;
+    backdrop-filter: blur(25px);
+    border: 1px solid white ;
+    border-radius:15px ;
+    padding:80px ;
+    color: var(--second-color);
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
+}
+.login{
+    position: absolute;
+    top: 0;
+    left:50% ;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:white;
+    width:140px ;
+    height: 70px;
+    border-radius: 0 0 20px 20px;
+
+}
+.inputelement{
+    padding-left: 20px;
+    margin-left: 300px;
+}
+.input-box{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    padding-left: 10px;
+
+}
+#email{
+  
+    padding-left: 20px;
+}
+#password{
+   
+}
+.input-field{
+    background: transparent;
+    height: 40px;
+    width: 100%;
+    background: transparent;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-top: 10px;
+
+}
+.loginheader span{
+    font-size: 30px;
+    color:black ;
+}
+::placeholder{
+    align-items: center;
+    color: rgb(41, 40, 40);
+    font-size: 10px;
+  
+   
+}
+.button{
+ height: 35px;
+ width: 80%;
+ background: rgb(142, 219, 236);
+ border: 1px solid white;
+ margin-top: 10px;   
+ border-radius: 10px;
+ margin-left: 25px;
+ cursor: pointer;
+ transition: 0.4s ease;
+ font-size: 15px;
+ margin-bottom: 10px;
+}
+.button:hover{
+    background: rgb(240, 243, 243);
+    color: black;
+
+}
+.remember{
+    color: white;
+}
+.forgot{
+    color: white;
+}
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+  }
+  
+ 
+@media only screen and (max-width: 564px){
+  .wrapper{
+    padding: 20px;
+
+  }  
+  .tag{
+    padding: 7.5em 1.5em 4em 1.5em;
+  }
+}

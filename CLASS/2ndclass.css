@@ -1,0 +1,137 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+
+ 
+
+#btn1{
+    color: rgb(20, 20, 20);
+    background-color:white;
+    border: none;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    border-radius:10px ;
+    padding: 10px;
+    transition:0.2s ease-out ;
+   
+}
+#btn1:hover{
+    color: gray;
+}
+#btn2{
+    color: rgb(94, 91, 91);
+    background-color:rgb(8, 8, 8);
+    border: 1px solid rgb(101, 100, 98);
+    width: 170px;
+    height: 40px;
+    background-color: transparent;
+    transition: 0.2s ease-out;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold ;
+    padding: 10px;
+    size: 20;
+   
+    
+    
+}
+#btn2:hover{
+    color: rgb(241, 237, 236);
+    background-color: rgb(72, 72, 71);
+}
+section{
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    display: flex;
+   align-items: baseline;
+  
+    font-size: 60px;
+   height: 700px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 55px;
+   margin-bottom: 40px;
+}
+    
+
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+h1{
+    font-size: 55px;
+}
+img{
+ gap: 50%;
+}
+h1{
+    margin: 30px;
+}
+#dog{
+    height: 593px;
+    width: 335px;
+    position: relative;
+    top: 48px;
+  }
+.section-2{
+  display: flex;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 200px;
+  align-items: center;
+  margin-top: 100px;
+}
+.section-3{
+  align-items: center;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 200px;
+  box-shadow: black;
+  margin-bottom: 300px;
+  
+}
+.section-4{
+  margin-left: 350px;
+  font-size: 2px;
+ 
+}
+.footer{
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  display: flex;
+  list-style: none;
+  
+
+}
+.footer ul{
+  margin-left: 200px;
+  display: inline-block;
+  list-style: none;
+  padding-left: 200PX;
+}
+

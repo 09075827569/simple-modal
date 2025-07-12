@@ -1,0 +1,39 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    min-height: 100vh;
+    color: rgb(255, 255, 255);
+  background: url(/image/ford-mustang-3840x2160-21882.jpg) no-repeat ;
+  background-size: cover;
+  background-position: center;
+
+
+}
+header{
+    color: rgb(242, 242, 246);
+    padding-left: 500px;
+}
+.section{
+   margin-top: 5px;
+   background:  
+}
+p{
+    border: 1px solid;
+   width: 200px;
+   margin-bottom: 10px
+
+}
+.section p{
+    font-size: ;
+  
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between;
+    backdrop-filter:  blur(50px);
+  
+  
+}
+i

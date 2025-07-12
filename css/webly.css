@@ -1,0 +1,100 @@
+
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    padding: 0%;
+}
+body {
+    min-height: 100vh;
+    background:url(/image/ford-mustang-3840x2160-21882.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1.3rem 10;
+    transition: 0.4s ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+  
+} 
+.header:hover{
+    background-color: aliceblue;
+    color: aqua;
+}
+ .header::before{
+    content: **;
+    position: absolute;
+    width:100%;
+    height: 100%;
+    background-color: ;
+ }
+.logo{
+    font-size: 2rem;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 700;
+}
+header a #check{
+    display: none;
+}
+.navbar a{
+    font-size: 1.15rem;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 2.5rem;
+
+}
+.icons{
+    position: absolute;
+    right: 5%;
+
+ font-size: 2.8rem;
+ color: aliceblue;   
+ cursor: pointer;
+ display: none;
+}
+  
+/* BREAKPOINT */
+@media (max-width: 992px){
+    .header{
+        padding: 1.3rem 5%;
+        
+    }
+}
+@media (max-width: 768px){
+    .icons{
+        display: inline-flex;
+
+    }
+    .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        height: 17.7rem;
+        background: rgba(0, 0, 0, .1);
+        backdrop-filter: blur(50px);
+    }
+    .navbar a {
+        display:block;
+        font-size:1.1rem;
+        margin: 1.5rem 0;
+        text-align: center;
+
+    }
+}
+.intro p {
+    height: 400px;
+    width: 600px;
+    color: rgb(69, 165, 42);
+}
